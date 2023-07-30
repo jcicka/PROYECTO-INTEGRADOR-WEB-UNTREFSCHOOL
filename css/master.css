@@ -14,7 +14,12 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #1F8A70;
+    background-color: #00425A;
+}
+h1, h2, label{
+    color:#FC7300;
+    text-align: center;
+    
 }
 
 /*=== Aplicando CSS al encabezado===*/
@@ -51,7 +56,7 @@ body{
     }
     #opcionesIzquierdo{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(5,1fr);
     }
     #opcionesDerecho{
         display: grid;
@@ -83,7 +88,7 @@ body{
         gap: 10px;
     }
     ion-icon{
-        color: white;
+        color: #FC7300;
         font-size: 2rem;
     }
 

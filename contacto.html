@@ -4,14 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/master.css">
 </head>
 <body>
-    <div>
+    <div class="container-fluid" id="container">
+        <header id="encabezado">
+            <figure id="logo">
+                <img src="./img/untref.jpg" alt="">
+            </figure>
+            <div id="menu">
+                <nav id="menuIzquierdo">
+                    <ul id="opcionesIzquierdo">
+                        <li><a href="#">Quienes Somos</a></li>
+                        <li><a href="#">¿Por que Elegirnos?</a></li>
+                        <li><a href="#">Propuesta Educativa</a></li>
+                        <li><a href="#piePagina">Ultimas Noticias</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+        <section id="imagenFondo">
+            <img src="./img/contactame-banner.jpg" alt="Banner">
+        </section>
+        <div>
+            <h1>Dejanos tus Datos</h1>
+        </div>
         <form action="">
-            
+            <label>Nombre:</label>
+            <br>
+            <input class="control" type="text" name="nombre" placeholder="Ingrese su Nombre"/>
+            <br>
+            <label>Apellido:</label>
+            <br>
+            <input class="control" type="text" name="apellido" placeholder="Ingrese su Apellido"/>
+            <br>
+            <label>Telefono:</label>
+            <br>
+            <input class="control" type="text" name="telefono" placeholder="Ingrese su Telefono"/>
+            <br>
+            <label>e-mail:</label>
+            <br>
+            <input class="control" type="email" name="email" placeholder="Ingrese su e-mail"/>
+            <br>
+            <input class="boton" type="submit" value="Enviar"/>
         </form>
-        <a href="">Hola</a>
+        <a href="./index.html">Volver</a>
+        <footer id="piePagina">
+            <div id="direccion">
+                <h3>Argentina</h3>
+            </div>
+            <div id="mapa">
+              <h2>Aquí nos encontramos</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8752992957798!2d-58.37892988953356!3d-34.60731467284029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3b098d0fdb%3A0xc5173d52ffc132de!2sUNTREF%20Posgrado!5e0!3m2!1ses-419!2sar!4v1689683595668!5m2!1ses-419!2sar"
+                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="redes">
+                <ul id="redesSociales">
+                    <li><a href="https://www.instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://www.Linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-xl" style="color: #FC7300;"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="subir">
+                <a href="#container"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+            </div>
+        </footer>
     </div>
+    <!--Enlaces paea utilizar iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--Esta es mi cuenta - obten la tuya-->
+    <script src="https://kit.fontawesome.com/7968cc1663.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
