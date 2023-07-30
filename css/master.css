@@ -14,11 +14,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #00425A;
+    background-color: #EFF5F5;
 }
 h1, h2, label{
     color:#FC7300;
     text-align: center;
+    background-color:#00425A;
+    padding: 3%;
     
 }
 
@@ -48,11 +50,12 @@ h1, h2, label{
         position: fixed;
         width: 100%;
         z-index: 1000;
-        background-color: white;
+        background-color: #00425A;
     }
     #menu{
         display: grid;
         grid-template-columns: 2fr 1fr;
+    
     }
     #opcionesIzquierdo{
         display: grid;
@@ -63,10 +66,10 @@ h1, h2, label{
         grid-template-columns: 1fr 1fr;
     }
     /*=== Aplikcando CSS a la seccioin productos===*/
-    #productos{
+    /*#productos{
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    }*/
     /*=== Aplicando CSS a la Galería===*/
     section#galeria{
         display: grid;
@@ -84,7 +87,7 @@ h1, h2, label{
     }
     #redesSociales{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         gap: 10px;
     }
     ion-icon{
