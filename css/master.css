@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+ul#opciones li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FC7300;
+}
 img{
     width: 100%;
 }
@@ -16,24 +21,36 @@ html{
 body{
     background-color: #EFF5F5;
 }
-h1, h2, label{
+h1, h2{
     color:#FC7300;
     text-align: center;
     background-color:#00425A;
     padding: 3%;
-    
+    width: 90%;
+    margin:auto;
+    position:relative;
+    border-radius: 25px;
+}
+label{
+    color:#FC7300;
+    text-align: center;
+    background-color:#00425A;
+    padding: 3%;
 }
 
 /*=== Aplicando CSS al encabezado===*/
+
 #logo{
-    width: 50%;
+    /*width: 25%;*/
     margin: auto;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
 }
+/*
 #menu{
+    width: 65%;
     text-align: center;
 }
-
+*/
 
 
 
@@ -45,41 +62,42 @@ h1, h2, label{
     /*=== Aplicando CSS al encabezado===*/
     #encabezado{
         display: grid;
-        grid-template-columns: 1fr 2fr; /*Medidas: px em rem % fr*/
+        grid-template-columns: 1fr 4fr; /*Medidas: px em rem % fr*/
         align-items: center;
         position: fixed;
         width: 100%;
         z-index: 1000;
-        background-color: #00425A;
+        background-color: rgba(8, 42, 80, 0.85);
     }
     #menu{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
     
     }
-    #opcionesIzquierdo{
+    #opciones{
         display: grid;
         grid-template-columns: repeat(5,1fr);
     }
-    #opcionesDerecho{
+    /*#opcionesDerecho{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    */
     /*=== Aplikcando CSS a la seccioin productos===*/
     /*#productos{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }*/
     /*=== Aplicando CSS a la Galería===*/
-    section#galeria{
+    /* section#galeria{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-    }
+    } */
     /*=== Aplicando CSS al Footer===*/
     #piePagina{
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr 0.5fr;
+        grid-template-columns: 1fr 1fr 2fr 0.5fr;
         justify-items: center;
         align-items: center;
         background-color: #00425A;
@@ -92,7 +110,7 @@ h1, h2, label{
     }
     ion-icon{
         color: #FC7300;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 
