@@ -79,22 +79,7 @@ label{
         display: grid;
         grid-template-columns: repeat(5,1fr);
     }
-    /*#opcionesDerecho{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    */
-    /*=== Aplikcando CSS a la seccioin productos===*/
-    /*#productos{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }*/
-    /*=== Aplicando CSS a la Galería===*/
-    /* section#galeria{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    } */
+    
     /*=== Aplicando CSS al Footer===*/
     #piePagina{
         display: grid;
