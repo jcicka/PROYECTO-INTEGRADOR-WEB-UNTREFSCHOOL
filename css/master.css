@@ -68,6 +68,7 @@ label{
         width: 100%;
         z-index: 1000;
         background-color: rgba(8, 42, 80, 0.85);
+        font-weight: bold;
     }
     #menu{
         display: grid;
