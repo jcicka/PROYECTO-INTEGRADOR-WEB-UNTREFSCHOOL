@@ -26,7 +26,7 @@ h1, h2{
     text-align: center;
     background-color:#00425A;
     padding: 3%;
-    width: 90%;
+    width: 100%;
     margin:auto;
     position:relative;
     border-radius: 25px;
@@ -36,6 +36,18 @@ label{
     text-align: center;
     background-color:#00425A;
     padding: 3%;
+}
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(8, 42, 80, 0.85);
+    font-weight: bold;
+}
+#mapa{
+    display: flex;
+    flex-direction: column;
 }
 
 /*=== Aplicando CSS al encabezado===*/
@@ -51,9 +63,23 @@ label{
     text-align: center;
 }
 */
+#piePagina{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #00425A;
+    color: #FC7300;
+}
 
+#redesSociales{
+    display: flex;
+    gap: 10px;
+}
 
-
+ion-icon{
+    color: #FC7300;
+    font-size: 3rem;
+}
 
 /*=== Aplicando comportamiento resposive o adaptativo===*/
 /* Medium devices (tablets, 768px and up)*/
@@ -79,6 +105,16 @@ label{
         display: grid;
         grid-template-columns: repeat(5,1fr);
     }
+    h1, h2{
+        color:#FC7300;
+        text-align: center;
+        background-color:#00425A;
+        padding: 3%;
+        width: 100%;
+        margin:auto;
+        position:relative;
+        border-radius: 25px;
+    }
     
     /*=== Aplicando CSS al Footer===*/
     #piePagina{
@@ -89,6 +125,7 @@ label{
         background-color: #00425A;
         color: #FC7300;
     }
+    
     #redesSociales{
         display: grid;
         grid-template-columns: repeat(4,1fr);
