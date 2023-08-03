@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 ul#opciones li a{
     text-decoration: none;
     font-size: 1.2rem;
@@ -37,14 +38,16 @@ label{
     background-color:#00425A;
     padding: 3%;
 }
-#encabezado{
+/*#encabezado{
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1000;
     background-color: rgba(8, 42, 80, 0.85);
     font-weight: bold;
-}
+
+    margin:auto;
+}*/
 #mapa{
     display: flex;
     flex-direction: column;
@@ -86,16 +89,16 @@ ion-icon{
 /*=== Trabajando con CSS-GRID===*/
 @media (min-width: 768px) { 
     /*=== Aplicando CSS al encabezado===*/
-    #encabezado{
+    /*#encabezado{
         display: grid;
-        grid-template-columns: 1fr 4fr; /*Medidas: px em rem % fr*/
+        grid-template-columns: 1fr 4fr; /*Medidas: px em rem % fr
         align-items: center;
-        position: fixed;
+        position:fixed;
         width: 100%;
         z-index: 1000;
         background-color: rgba(8, 42, 80, 0.85);
         font-weight: bold;
-    }
+    }*/
     #menu{
         display: grid;
         grid-template-columns: 1fr;
